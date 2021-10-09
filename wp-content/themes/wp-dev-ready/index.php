@@ -1,10 +1,10 @@
-<?php get_header(); dd(get_header());?>
+<?php get_header();?>
 
 <main id="" class="">
 
 	<?php if (have_posts()) : ?>
 
-		<header class="page-header">
+		<header class="">
 			<h1><?php the_title(); ?></h1>
 		</header>
 

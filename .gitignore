@@ -19,3 +19,6 @@ wp-config.php
 
 # MacOS specific cache file we don't want in our project
 .DS_Store
+
+# Dynamically generated css file (tailwindcss) run "npm run watch" in de wp-content folder during developement to keep it auto updated
+/wp-content/themes/wp-dev-ready/css/wp-dev-ready.css
