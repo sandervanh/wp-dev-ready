@@ -1,15 +1,21 @@
 # Duplicator plugin
 /wp-content/backups-dup-lite
 /wp-content/backups-dup-pro
+
 # We don't want to version control cache
 /wp-content/cache
+
 # Debug log's could contain interesting info for hackers
 /wp-content/debug.log
+
 # We're installing node_modules in a new project with the "npm install" command
 /wp-content/node_modules
+
 # We're installing composer modules in a new project with the "composer install" command
 /wp-content/vendor
-# This file contains info you don't want to share
+
+# This file contains info you don't want to share such as database credentials and other sensitive info
 wp-config.php
-# An annoying MacOS specific cache file we don't want in our project
+
+# MacOS specific cache file we don't want in our project
 .DS_Store
