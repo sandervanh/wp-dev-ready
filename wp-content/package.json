@@ -16,8 +16,8 @@
     "tailwindcss": "^2.2.16"
   },
   "scripts": {
-    "watch": "TAILWIND_MODE=watch postcss themes/wp-dev-ready/css/tailwind.css -o themes/wp-dev-ready/css/output.css --verbose -w",
-    "build": "TAILWIND_MODE=build postcss themes/wp-dev-ready/css/tailwind.css -o themes/wp-dev-ready/css/output.css"
+    "watch": "TAILWIND_MODE=watch postcss themes/wp-dev-ready/css/tailwind.css -o themes/wp-dev-ready/css/wp-dev-ready.css --verbose -w",
+    "build": "TAILWIND_MODE=build postcss themes/wp-dev-ready/css/tailwind.css -o themes/wp-dev-ready/css/wp-dev-ready.css"
   },
   "repository": {
     "type": "git",

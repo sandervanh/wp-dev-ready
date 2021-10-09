@@ -12,16 +12,15 @@ if (!defined('DEV_VERSION')) {
  */
 include_once get_template_directory() . '/includes/helper-functions.php';
 
+/**
+ * Setup theme functions
+ */
+require_once get_template_directory() . '/includes/theme-setup.php';
 
-// /**
-//  * Setup theme function
-//  */
-// require get_template_directory() . '/inc/theme-setup.php';
-
-// /**
-//  * Enqueue scripts and styles.
-//  */
-// require get_template_directory() . '/inc/enqueues.php';
+/**
+ * Enqueue scripts and styles.
+ */
+require_once get_template_directory() . '/includes/scripts.php';
 
 // /**
 //  * Backend functionality
