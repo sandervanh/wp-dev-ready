@@ -18,7 +18,9 @@ if (!function_exists('theme_setup')) :
 		 */
 		add_theme_support('post-thumbnails');
 
-		// Register primary nav_menu.
+		/*
+		 * Register primary nav_menu.
+		 */
 		register_nav_menus(
 			array(
 				'primary' => esc_html__('Primary', 'wp-dev-ready'),
@@ -57,5 +59,7 @@ if (!function_exists('theme_setup')) :
 		// add_theme_support( 'wc-product-gallery-lightbox' );
 		// add_theme_support( 'wc-product-gallery-slider' );
 	}
+
 endif;
+
 add_action('after_setup_theme', 'theme_setup');

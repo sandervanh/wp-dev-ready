@@ -8,9 +8,7 @@
 			<h1><?php printf( esc_html__( 'Search Results for: %s', 'wp-dev-ready' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 		</header>
 
-	<?php
-		/* Start the Loop */
-		while (have_posts()) :
+	<?php while (have_posts()) :
 			the_post();
 
 			get_template_part('components/content', 'search');
@@ -23,8 +21,7 @@
 
 		get_template_part('components/content', 'empty');
 
-	endif;
-	?>
+	endif; ?>
 
 </main>
 

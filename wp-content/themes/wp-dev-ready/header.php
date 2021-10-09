@@ -10,4 +10,4 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div class="page"><!-- body & page closing tag are in footer.php -->
+<div class="page-content"><!-- body & page closing tag are in footer.php -->
