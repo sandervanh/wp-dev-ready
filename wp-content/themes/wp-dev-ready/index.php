@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header(); dd(get_header());?>
 
 <main id="" class="">
 
