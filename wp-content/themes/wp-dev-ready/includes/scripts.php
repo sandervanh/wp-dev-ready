@@ -3,6 +3,7 @@
  * Enqueue scripts and styles.
  */
 function enqueue_scripts() {
+    
     // This is the main css file
 	wp_enqueue_style( 'theme-style', get_stylesheet_uri(), array(), DEV_VERSION );
 

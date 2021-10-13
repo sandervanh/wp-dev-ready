@@ -19,7 +19,6 @@ module.exports = {
 	},
 	theme: {
 		colors: {
-
 		},		
 		screens: {
 			xxxs: "330px",
