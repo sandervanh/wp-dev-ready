@@ -21,3 +21,13 @@ require_once get_template_directory() . '/includes/theme-setup.php';
  * Enqueue scripts and styles.
  */
 require_once get_template_directory() . '/includes/scripts.php';
+
+/**
+ * Custom post types.
+ */
+require_once get_template_directory() . '/includes/custom-post-types.php';
+
+/**
+ * Custom taxonomies.
+ */
+require_once get_template_directory() . '/includes/custom-taxonomies.php';

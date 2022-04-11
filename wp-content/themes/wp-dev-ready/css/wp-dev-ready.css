@@ -639,6 +639,10 @@ select {
   --tw-backdrop-sepia:  ;
 }
 
+.block {
+  display: block;
+}
+
 .w-full {
   width: 100%;
 }
