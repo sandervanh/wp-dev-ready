@@ -16,7 +16,7 @@ if (!function_exists('d')) {
 }
 
 /**
- * Stealing Dump and die function from Laravel.
+ * Stealing dump and die function from Laravel.
  */
 if (!function_exists('dd')) {
 
