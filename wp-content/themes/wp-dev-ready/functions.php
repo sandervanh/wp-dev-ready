@@ -8,6 +8,11 @@ if (!defined('DEV_VERSION')) {
 }
 
 /**
+ * Enqueue scripts and styles.
+ */
+require_once get_template_directory() . '/includes/scripts.php';
+
+/**
  * Include helper functions
  */
 include_once get_template_directory() . '/includes/helper-functions.php';
@@ -17,10 +22,6 @@ include_once get_template_directory() . '/includes/helper-functions.php';
  */
 require_once get_template_directory() . '/includes/theme-setup.php';
 
-/**
- * Enqueue scripts and styles.
- */
-require_once get_template_directory() . '/includes/scripts.php';
 
 /**
  * Custom post types.
