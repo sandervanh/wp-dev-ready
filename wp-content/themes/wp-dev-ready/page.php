@@ -1,14 +1,14 @@
 <?php get_header(); ?>
 
-	<main id="" class="">
+<?php get_template_part('/components/layout/wrapper-start'); ?>
 
-		<?php while ( have_posts() ) :
-			the_post();
+	<?php while (have_posts()) :
+		the_post();
 
-			get_template_part( 'components/content', 'page' );
+		get_template_part('components/content', 'page');
 
-		endwhile; ?>
+	endwhile; ?>
 
-	</main>
+<?php get_template_part('/components/layout/wrapper-end'); ?>
 
 <?php get_footer();
